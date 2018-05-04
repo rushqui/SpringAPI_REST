@@ -24,7 +24,7 @@ public class LargestProduct {
 	    
 	    while(v<=arr.length && v+k<=arr.length) {
 	    	for(int j=0;j<=k-1;j++) {
-	    		//System.out.println(digits[n]);
+	    		System.out.println(digits[n]);
 	    		multiply*=digits[n];
 	    		n++;
 	  
@@ -35,7 +35,7 @@ public class LargestProduct {
 	    		bigger=product[v];
 	    		z=v;
 	    	}
-	    	//System.out.println(product[v]);
+	    	System.out.println(product[v]);
 	    	multiply=1;
 	    	v++;
 	    	n=v;
